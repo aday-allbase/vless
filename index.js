@@ -1,9 +1,9 @@
 import { connect } from 'cloudflare:sockets';
 const listProxy = [
-    { path: '/akamai', proxy: '172.232.238.169' },
-    { path: '/linknet', proxy: '111.95.40.14' },
-    { path: '/google1', proxy: '35.219.15.90' },
-    { path: '/google2', proxy: '35.219.50.99'},
+    { path: '/Herza', proxy: '103.168.146.169:20132' },
+    { path: '/Cloud', proxy: '103.133.223.50:2096' },
+    { path: '/Tencent', proxy: '43.133.145.156:53136' },
+    { path: '/Google', proxy: '35.219.50.99:443'}
 ];
 let proxyIP;
 export default {
