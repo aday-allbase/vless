@@ -4,7 +4,8 @@ var listProxy = [
   { path: "/Herza", proxy: "103.168.146.169:20132" },
     { path: "/Cloud", proxy: "103.133.223.50:2096" },
     { path: "/Tencent", proxy: "43.133.145.156:53136" },
-    { path: "/Google", proxy: "35.219.50.99:443" }
+    { path: "/Google", proxy: "35.219.50.99:443" },
+    { path: "/rmray", proxy: "41.216.177.57" }
   //tambahin sendiri
 ];
 var proxyIP;
