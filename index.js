@@ -4,8 +4,7 @@ var listProxy = [
   { path: "/Herza", proxy: "103.168.146.169:20132" },
     { path: "/Cloud", proxy: "103.133.223.50:2096" },
     { path: "/Tencent", proxy: "43.133.145.156:53136" },
-    { path: "/Google", proxy: "35.219.50.99:443" },
-    { path: "/rmray", proxy: "41.216.177.57" }
+    { path: "/Google", proxy: "35.219.50.99:443" }
   //tambahin sendiri
 ];
 var proxyIP;
@@ -50,7 +49,7 @@ async function getAllConfigVless(hostName) {
       const vlessTlsFixed = vlessTls.replace(/ /g, "+");
       const vlessNtlsFixed = vlessNtls.replace(/ /g, "+");
       const clashConfTls = `- name: ${data.isp} (${data.countryCode})
-  server: ${hostName}
+  server: support.zoom.us
   port: 443
   type: vless
   uuid: ${generateUUIDv4()}
